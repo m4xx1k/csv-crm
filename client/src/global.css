@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	--primary-dark: #002050;
+	--background-light: #dfe2e8;
+	--primary-blue: #1160b7;
+	--secondary-blue: #b1d6f0;
+	--accent-orange: #d24726;
+
+	--shadow-main: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+body {
+	height: 100vh;
+	width: 100vw;
+	background-color: var(--background-light);
+	color: var(--primary-dark);
+	position: relative;
+}
+#root {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+input {
+	background-color: transparent;
+	width: 100%;
+	border-radius: 4px;
+	outline: none;
+	border: 2px solid black;
+	padding: 8px;
+}
+button {
+	background-color: var(--primary-blue);
+	color: white;
+	border: none;
+	border-radius: 8px;
+	padding: 8px;
+	cursor: pointer;
+	font-weight: 500;
+}

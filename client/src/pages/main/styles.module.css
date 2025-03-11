@@ -1,0 +1,16 @@
+.uploadBtn {
+	background-color: var(--accent-orange);
+	position: fixed;
+	z-index: 10;
+	top: 16px;
+	right: 16px;
+}
+.uploadInput {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	z-index: 0;
+	width: 0;
+	height: 0;
+}
